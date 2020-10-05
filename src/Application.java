@@ -4,9 +4,9 @@ import java.util.Date;
 public class Application {
 
 
-    public static void main(String [] args){
+    public static void main(String [] args) throws InvalidDateException {
 
-        User user1 = new User("Ivan", "Ivanov", 25, "ivan@gmail.com", "NEW", "2015-01-02");
+        User user1 = new User("Ivan", "Ivanov", 25, "ivan@gmail.com", "NEW", "2020-01-05");
         User user2 = new User("Ecaterina", "Ivanov", 35, "ivan2@gmail.com", "NEW", "2020-10-02");
         User user3 = new User("Mihai", "Mihailov", 48, "mihai@gmail.com", "ACTIVE", "2020-05-25");
         User user4 = new User("Stanislav", "Mihailov", 18, "mihai22@gmail.com", "ACTIVE", "2020-08-19");
